@@ -1,0 +1,4 @@
+node_modules
+.gitignore
+custom-types.ts
+*.scss

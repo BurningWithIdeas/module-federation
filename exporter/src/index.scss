@@ -1,0 +1,9 @@
+body {
+  font-size: 25px;
+  margin: 0;
+
+  #root {
+    display: grid;
+    grid-template-columns: 1fr 1fr 6fr 1fr 1fr;
+  }
+}

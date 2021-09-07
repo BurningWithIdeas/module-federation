@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noResolve": false,
+    "noImplicitAny": true,
+    "removeComments": true,
+    "sourceMap": true,
+    "allowJs": true,
+    "jsx": "react",
+    "esModuleInterop": true,
+
+    "baseUrl": "./",
+    "paths": {
+      "API/*": ["src/api/*"],
+      "Actions/*": ["src/actions/*"],
+      "Middleware/*": ["src/middleware/*"],
+      "Common/*": ["src/common/*"],
+      "Utils/*": ["src/utils/*"],
+      "Assets/*": ["public/assets/*"],
+      "Fonts/*": ["public/fonts/*"]
+    }
+  },
+  "exclude": ["./node_modules/**/*", "./dist", "./webpack*"]
+}
